@@ -16,9 +16,8 @@ N/a
 The website allows you to use navigational links to move to the areas of content in the application. There are also links embedded in the photos located in the work section as well as contact links that will redirect you to the websites associated. 
 ```
 ## Visuals
-<img src="https://jonspircoff7.github.io/my-portfolio/"
-     alt="Markdown Monster icon"
-     style="width: 300px; height 200px; margin: 0px 100px;" />
+"![image](https://user-images.githubusercontent.com/111098928/192685236-d4a76d30-c83b-4439-b7d8-f07fabedbb39.png)'
+  
 
 ## Contributing
 Pull requests are welcome. For changes, please open an issue first to discuss what you would like to change.
