@@ -174,7 +174,7 @@ section{
     width: 80%;
     height: 40%;
     box-shadow: 1px 2px 4px black;
-    border: 2px solid black;
+    overflow: hidden
     
 }
 .imgbox-1 img{
@@ -186,28 +186,11 @@ section{
     object-position: left;
     z-index: -1;
 }
-.imgbox2-3{
-    width: 80%;
-    height: 27.5%;
-    box-shadow: 1px 2px 4px black;
-  
-}
-.imgbox2-3 img{
-    margin: 0px;
-    object-fit: cover;
-    overflow: hidden;
-    width: 367.5px;
-    height: 100%;
-    object-position: center;
-    border: 2px solid black;
-}
-
-.imgbox4-5{
-    width: 80%;
-    height: 27.5%
-
-}
-.imgbox4-5 img{
+.imgbox2-3, .imgbox4-5{
+        width: 80%;
+        height: 27.5%
+    }
+  .imgbox2-3 img, .imgbox4-5 img{
     margin: 0px;
     object-fit: cover;
     overflow: hidden;
@@ -216,8 +199,9 @@ section{
     object-position: center;
     box-shadow: 1px 2px 4px black;
     border: 2px solid black;
-
 }
+
+
 div.subtitle{
     background-color: var(--light);
     width: 15px;
